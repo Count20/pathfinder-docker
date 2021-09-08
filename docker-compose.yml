@@ -16,7 +16,7 @@ services:
         #   context: .
         #   dockerfile: Dockerfile
         restart: always
-        image: kryptedgaming/pathfinder:latest
+        image: count20/pathfinder:latest
         env_file: .env
         ports:
             - "8000:80"
